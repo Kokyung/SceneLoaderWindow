@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 
 namespace BKK.EditorSceneManagement
 {
-    [CreateAssetMenu(menuName = "BKK/Editor Scene Management/", fileName = "SceneLoaderData")]
     public class SceneLoaderData : ScriptableObject
     {
         public string relativeFolderPath = "Assets/";
